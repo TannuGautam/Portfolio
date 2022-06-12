@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
+
+.left-section{
+    grid-column: span 1;
+    background-color: rgb(49, 9, 9);
+    color: white;
+}
+
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: azure;
+}
+
+.left-content{
+    padding: 1rem;
+}
+
+.profile-image{
+    padding: 1rem;
+    margin: auto;
+    display:block;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02rem;
+}
+
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.t{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    gap: 3rem;
+    float: left;
+    padding: 0.5rem;
+}
+
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.s1{
+    background-color:white;
+    width:80%;
+}
+
+.s2{
+    background-color:white;
+    width:50%;
+}
+
+.s3{
+    background-color:white;
+    width:70%;
+}
+
+.s4{
+    background-color:white;
+    width:80%;
+}
+
+.s5{
+    background-color:white;
+    width:70%;
+}
+
+.s6{
+    background-color:white;
+    width:60%;
+}
+
+.s7{
+    background-color:white;
+    width:60%;
+}
+
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.para{
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.paragraph h1,ul{
+    padding-left: 3rem; 
+    letter-spacing: 1px;
+    padding-right: 3rem;
+}
+
+
+.edu{
+    display: flex;
+    flex-direction: column;
+}
+
+.education-content h1, .experience-content h3, .experience-content h2{
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.project-content span{
+    font-weight: 900;
+}
+
+.education-content{
+    display: flex;
+}
+
+.edu h3{
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+}
+
+.exp h3, .exp h1{
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.exp h1{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.exp-h2{
+    font-weight: 900; 
+}
+
+@media screen and (max-width: 673px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
